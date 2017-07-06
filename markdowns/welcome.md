@@ -6,4 +6,4 @@ The source code of this playground is on [GitHub](https://github.com), please fe
 # Immutable String
 The Java String class is immutable. This leads to problems like this one:
 
-@[What is displayed?]({"stubs": ["src/main/java/com/yourself/String.java"], "command": "com.yourself.StringTest#test"})
+@[What is displayed?]({"stubs": ["src/main/java/com/yourself/StringMistakes.java"], "command": "com.yourself.StringTest#immutable"})

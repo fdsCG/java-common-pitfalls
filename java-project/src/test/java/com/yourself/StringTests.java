@@ -10,7 +10,7 @@ import org.junit.Test;
 public class StringTests {
 
 	@Test
-	public void Immutable() {
+	public void immutable() {
 		new StringsMistakes().immutable();
 	}
 }
