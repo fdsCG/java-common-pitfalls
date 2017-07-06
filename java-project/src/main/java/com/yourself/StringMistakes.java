@@ -10,7 +10,8 @@ public static void immutable() {
 // }
 String s = "Hello World!";
 s.toUpperCase();
-System.out.println(s);
+
+System.out.println(s); // "HELLO WORLD"?
 //{ autofold
 }
 }
