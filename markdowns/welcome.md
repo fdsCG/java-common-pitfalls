@@ -1,6 +1,7 @@
 # Welcome!
 
-This playground lists the most common mistakes made by unexperienced Java programmers.
+This playground lists the most common pitfalls.
+
 The source code of this playground is on [GitHub](https://github.com), please feel free to come up with proposals to enhance this list!
 
 # Immutable String
