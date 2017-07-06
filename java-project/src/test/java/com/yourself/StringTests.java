@@ -11,6 +11,6 @@ public class StringTests {
 
 	@Test
 	public void immutable() {
-		new StringsMistakes().immutable();
+		new StringMistakes().immutable();
 	}
 }
