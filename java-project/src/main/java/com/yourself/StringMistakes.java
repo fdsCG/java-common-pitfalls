@@ -8,10 +8,10 @@ public class StringMistakes {
 
 public static void immutable() {
 // }
-String s = "Hello World!";
+String s = "abc";
 s.toUpperCase();
 
-System.out.println(s); // "HELLO WORLD!"?
+System.out.println(s); // "ABC"?
 //{ autofold
 }
 }
