@@ -2,7 +2,7 @@
 
 This playground lists the most common Java pitfalls. I started this contribution because I saw so many young programmers made the following mistakes I though it can be useful to share it to people learning Java.
 
-The source code is on [GitHub](https://github.com), please feel free to come up with proposals to enhance this list!
+The source code is on [GitHub](https://github.com), please feel free to come up with proposals to fill up this list!
 
 # No, you cannot modify a String object
 @[The Java String class is immutable.]({"stubs": ["src/main/java/com/yourself/StringMistakes.java"], "command": "com.yourself.StringTests#immutable"})
