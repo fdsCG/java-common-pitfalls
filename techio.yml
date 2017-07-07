@@ -2,7 +2,7 @@ title : The Most Common Java Pitfalls
 
 # Table of content
 plan:
-    statement: markdowns/welcome.md # Set the file path to the page content
+  - statement: markdowns/welcome.md # Set the file path to the page content
 
 # Settings for your programming projects and the associated Docker images
 projects:
