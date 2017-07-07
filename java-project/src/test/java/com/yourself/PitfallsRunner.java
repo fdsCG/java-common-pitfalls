@@ -5,7 +5,12 @@ import org.junit.Test;
 public class PitfallsRunner {
 
 	@Test
-	public void immutable() {
-		Pitfalls.immutable();
+	public void stringImmutable() {
+		StringImmutable.exec();
+	}
+	
+	@Test
+	public void bigNumberImmutable() {
+		BigNumberImmutable.exec();
 	}
 }

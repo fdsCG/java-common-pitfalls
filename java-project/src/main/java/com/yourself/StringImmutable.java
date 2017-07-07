@@ -1,10 +1,10 @@
 // { autofold
 package com.yourself;
 
-public class Pitfalls {
+public class StringImmutable {
 
 
-public static void immutable() {
+public static void exec() {
 // }
 String s = "abc";
 s.toUpperCase();
