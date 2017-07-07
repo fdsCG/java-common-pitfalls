@@ -11,6 +11,6 @@ public class PitfallsRunners {
 
 	@Test
 	public void immutable() {
-		new StringMistakes().immutable();
+		new Pitfalls().immutable();
 	}
 }
