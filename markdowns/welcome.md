@@ -2,7 +2,7 @@
 
 This playground lists the most common Java pitfalls. I started this contribution because I saw many young programmers doing the same mistakes every time I though it can be useful to share it.
 
-This playgroundis on [GitHub](https://github.com), please feel free to come up with proposals to fill up this list!
+This playground is on [GitHub](https://github.com), please feel free to come up with proposals to fill up the list.
 
 # Java String objects are immutable.
 Once a String object is created you cannot change the object itself, but you can change the reference to the object.
