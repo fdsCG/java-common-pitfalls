@@ -3,11 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.yourself</groupId>
-	<artifactId>java-project</artifactId>
+	<artifactId>java-common-pitfalls</artifactId>
 	<version>1.0.0</version>
 
-	<name>java-project</name>
-	<description>Add project description here</description>
+	<name>java-common-pitfalls</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
