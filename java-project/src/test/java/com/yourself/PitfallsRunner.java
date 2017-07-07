@@ -11,6 +11,6 @@ public class PitfallsRunner {
 	
 	@Test
 	public void bigNumberImmutable() {
-		BigNumberImmutable.exec();
+		BigIntegerImmutable.exec();
 	}
 }

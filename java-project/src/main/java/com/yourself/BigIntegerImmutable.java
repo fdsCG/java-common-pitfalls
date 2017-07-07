@@ -3,7 +3,7 @@ package com.yourself;
 
 import java.math.BigInteger;
 
-public class BigNumberImmutable {
+public class BigIntegerImmutable {
 
 
 public static void exec() {
