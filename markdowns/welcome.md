@@ -1,4 +1,4 @@
-This playground lists the most common Java pitfalls. I started this contribution because I saw many young programmers doing the same mistakes every time I though it can be useful to share it.
+This playground lists the most common Java pitfalls. I started this contribution because I saw many young programmers doing the same mistakes, every time, and I though it can be useful to share it.
 
 This playground is on [GitHub](https://github.com), please feel free to come up with proposals to fill up the list.
 
