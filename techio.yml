@@ -1,12 +1,8 @@
-title : Java Common Mistakes Sandbox
+title : The Most Common Java Pitfalls
 
 # Table of content
 plan:
-  - title: Common Mistakes List # Set the page title (only displayed if your contribution has several pages)
     statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
-
 
 # Settings for your programming projects and the associated Docker images
 projects:
