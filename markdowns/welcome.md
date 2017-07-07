@@ -9,6 +9,8 @@ Once a String object is created you cannot change the object itself, but you can
 
 @[No, you can't modify a String object]({"stubs": ["src/main/java/com/yourself/Pitfalls.java"], "command": "com.yourself.PitfallsRunner#immutable"})
 
-Here to obtain the expected string you have to reference the new String object returned by the methode call: `s = s.toUpperCase();`.
+To print the expected string you have to update the reference to the new String object returned by the method `toUpperCase`
+
+`s = s.toUpperCase();`.
 
 Actually, it's possible to update a String object using introspection but I've never seen a good reason to do that.
