@@ -1,6 +1,4 @@
-This playground outlines some of the common mistakes made by beginners in Java.
-
-This playground is on [GitHub](https://github.com), please feel free to come up with proposals to fill up the list.
+This playground outlines some of the common mistakes made by beginners in Java. Feel free to contribute on [GitHub](https://github.com) to fill up the list.
 
 # Java String objects are immutable
 Once a String object is created you cannot change the object itself, but you can change the reference to the object.
