@@ -7,7 +7,7 @@ import java.util.Scanner;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class StringTests {
+public class PitfallsRunners {
 
 	@Test
 	public void immutable() {

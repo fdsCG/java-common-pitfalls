@@ -3,7 +3,7 @@ package com.yourself;
 
 import java.util.Arrays;
 
-public class StringMistakes {
+public class Pitfalls {
 
 
 public static void immutable() {
@@ -11,7 +11,7 @@ public static void immutable() {
 String s = "abc";
 s.toUpperCase();
 
-System.out.println(s); // "ABC"?
+System.out.println(s); // What does this print?
 //{ autofold
 }
 }
