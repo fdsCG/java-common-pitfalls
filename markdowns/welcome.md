@@ -7,8 +7,9 @@ This playground is on [GitHub](https://github.com), please feel free to come up 
 # Java String objects are immutable.
 Once a String object is created you cannot change the object itself, but you can change the reference to the object.
 
-@[No, you can't modify a String object]({"stubs": ["src/main/java/com/yourself/Pitfalls.java"], "command": "com.yourself.PitfallsRunner#immutable"})
+@[You can't modify a String object]({"stubs": ["src/main/java/com/yourself/Pitfalls.java"], "command": "com.yourself.PitfallsRunner#immutable"})
 
 To print the expected string you have to update the reference to the new String object returned by the method `toUpperCase` this way: `s = s.toUpperCase();`.
+If you remember all String methods never change the current String, then you can avoid many beginner's mistakes.
 
-Actually, it's possible to update a String object using introspection but I've never seen a good reason to do that.
+# Java String objects are immutable.
