@@ -2,7 +2,7 @@ This playground outlines some of the common mistakes made by beginners in Java. 
 
 # Immutability
 
-Immutable means that once an object is created you cannot change the object itself. `String`s are immutable:
+Immutable means that once an object is created you cannot change the object itself. Java strings are immutable:
 @[]({"stubs": ["src/main/java/com/yourself/StringImmutable.java"], "command": "com.yourself.PitfallsRunner#stringImmutable"})
 
 `BigInteger`, `BigDecimal` and all the wrapper classes for the primitive types are also immutable:
