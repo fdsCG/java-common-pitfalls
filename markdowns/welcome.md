@@ -2,12 +2,13 @@ This playground outlines some of the common mistakes made by beginners in Java. 
 
 # Immutability
 
-Immutable means that once an object is created you cannot change the object itself.
-@[String is immutable]({"stubs": ["src/main/java/com/yourself/StringImmutable.java"], "command": "com.yourself.PitfallsRunner#stringImmutable"})
+Immutable means that once an object is created you cannot change the object itself. `String`s are immutable:
+@[]({"stubs": ["src/main/java/com/yourself/StringImmutable.java"], "command": "com.yourself.PitfallsRunner#stringImmutable"})
 
-@[BigInteger and BigDecimal are also immutable]({"stubs": ["src/main/java/com/yourself/BigIntegerImmutable.java"], "command": "com.yourself.PitfallsRunner#bigIntegerImmutable"})
+`BigInteger`, `BigDecimal` and all the wrapper classes for the primitive types are also immutable:
+@[]({"stubs": ["src/main/java/com/yourself/BigIntegerImmutable.java"], "command": "com.yourself.PitfallsRunner#bigIntegerImmutable"})
 
-You can update the reference to the object to print the expected result. To avoid many mistakes just remember **all methods of an immutable object never change the object itself**.
+You must update the reference to the object to get the expected result. To avoid many mistakes just remember **all methods of an immutable object never change the object itself**.
 
 # equals(...) vs. ==
 
