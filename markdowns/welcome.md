@@ -24,5 +24,6 @@ OK, so can you guess what the following code prints?
 
 Isn't it a bit weird?
 
-Even though we are testing the strings the wrong way the results are always `true`. Why? Because any two string literals consisting of the same characters will actually refer the same object (this object is _interned_ and cached when the program is loaded). The Java Language Specification also stipulates that compile-time constants expressions that concatenates several string literals are equivalent to a single literal.  
+Even though we are testing the strings the wrong way the results are always `true`. Why? Because any two string literals consisting of the same characters will actually refer the same object (this object is _interned_ and cached when the program is loaded). The Java Language Specification also stipulates that compile-time constants expressions that concatenates several string literals are equivalent to a single literal.
+
 These are the reasons why these tests return `true`.
