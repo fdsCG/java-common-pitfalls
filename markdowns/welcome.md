@@ -4,6 +4,7 @@ This playground outlines some of the common mistakes made by beginners in Java. 
 
 Immutable means that once an object is created you cannot change the object itself. Java strings are immutable:
 @[]({"stubs": ["src/main/java/com/yourself/StringImmutable.java"], "command": "com.yourself.PitfallsRunner#stringImmutable"})
+
 asdasdasdasdasd
 
 In this example you can update the reference to the object to get the expected result: `s = s.toUpperCase()`.  
