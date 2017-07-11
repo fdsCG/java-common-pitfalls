@@ -13,4 +13,9 @@ public class PitfallsRunner {
 	public void bigIntegerImmutable() {
 		BigIntegerImmutable.exec();
 	}
+	
+	@Test
+	public void stringEquality() {
+		BigIntegerImmutable.exec();
+	}
 }
