@@ -1,7 +1,6 @@
 ![Pitfalls](pitfall.gif "Pitfalls")
 
 This playground outlines some of the common mistakes made by beginners in Java. Feel free to contribute on [GitHub](https://github.com) to fill up the list.
-
 # Immutability
 
 Immutable means that once an object is created you cannot change the object itself. Java strings are immutable:
