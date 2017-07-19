@@ -30,3 +30,6 @@ Isn't it a bit weird?
 Even though we are testing the strings the wrong way the results are always `true`. Why? Because any two string literals consisting of the same characters will actually refer the same object (this object is [interned](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#intern()) when the program is loaded). The Java Language Specification also stipulates that string-valued constant expressions that concatenates several string literals are interned as a single literal.
 
 These are the reasons why these tests return `true`.
+
+Some primitive wrapper classes cache some values, example:
+@[What does it print?]({"stubs": ["src/main/java/com/yourself/IntegerEquality.java"], "command": "com.yourself.PitfallsRunner#integerEquality"})

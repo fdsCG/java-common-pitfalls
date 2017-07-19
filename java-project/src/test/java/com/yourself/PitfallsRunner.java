@@ -18,4 +18,9 @@ public class PitfallsRunner {
 	public void stringEquality() {
 		StringEquality.exec();
 	}
+	
+	@Test
+	public void integerEquality() {
+		IntegerEquality.exec();
+	}
 }
