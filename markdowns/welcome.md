@@ -13,7 +13,7 @@ In this example you can update the reference to the object to get the expected r
 
 To avoid many mistakes just remember **all methods of an immutable object never change the object itself**.
 
-# equals(...) vs. ==
+# equals() vs. ==
 
 Quick reminder: 
 The operator `==` returns `true` if both object references point to the same object.  
