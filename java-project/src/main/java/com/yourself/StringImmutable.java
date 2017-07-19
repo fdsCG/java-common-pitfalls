@@ -10,7 +10,7 @@ public static void exec() {
 String s = "abc";
 s.toUpperCase();
 
-System.out.println(s); // What does it print?
+System.out.println(s);
 
 //{ autofold
 }
