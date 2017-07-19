@@ -16,8 +16,8 @@ To avoid many mistakes just remember **all methods of an immutable object never 
 # equals() vs. ==
 
 Quick reminder: 
-The operator `==` returns `true` if both object references point to the same object.  
-The `equals` method should always return `true` if both objects are equivalent (two objects can be equivalent but do not point to the same object).
+- The operator `==` returns `true` if both object references point to the same object.  
+- The `equals` method should always return `true` if both objects are equivalent (two objects can be equivalent but do not point to the same object).
 
 For example, if we want to compare strings (to see if they contain the same characters), we need to compare the strings using `equals`.
 
