@@ -1,6 +1,6 @@
 ![Pitfalls](pitfall.gif "Pitfalls")
 
-This article outlines some of the common mistakes made by Java programmers. Feel free to fill up the list on [GitHub](https://github.com) with other pitfalls.
+This article outlines some of the common mistakes made by Java programmers. Feel free to fill up the list on [GitHub](https://github.com/fdsCG/java-common-pitfalls) with other pitfalls.
 
 # Immutability
 
