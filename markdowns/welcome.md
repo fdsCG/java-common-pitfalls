@@ -30,5 +30,7 @@ Even though we are testing the strings the wrong way the results are always `tru
 
 These are the reasons why these tests return `true`.
 
-Some primitive wrapper classes cache some values, example:
+Some primitive wrapper classes cache a range of values. For example:
 @[What does it print?]({"stubs": ["src/main/java/com/yourself/IntegerEquality.java"], "command": "com.yourself.PitfallsRunner#integerEquality"})
+
+Why? Because integer values between -128 and 127 are cached, but 128 is not.
