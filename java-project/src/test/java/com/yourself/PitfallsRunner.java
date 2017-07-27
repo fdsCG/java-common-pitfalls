@@ -23,4 +23,8 @@ public class PitfallsRunner {
 	public void integerEquality() {
 		IntegerEquality.exec();
 	}
+	
+	public void equalsAndHashcode() {
+		EqualsAndHashcode.exec();
+	}
 }

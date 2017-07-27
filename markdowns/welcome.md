@@ -34,3 +34,7 @@ Some primitive wrapper classes cache a range of values. For example:
 @[What does it print?]({"stubs": ["src/main/java/com/yourself/IntegerEquality.java"], "command": "com.yourself.PitfallsRunner#integerEquality"})
 
 Why? Because integer values between -128 and 127 are cached, but 128 is not.
+
+# hashCode() and equals()
+
+@[What does it print?]({"stubs": ["src/main/java/com/yourself/EqualsAndHashcode.java"], "command": "com.yourself.PitfallsRunner#equalsAndHashcode"})
